@@ -1,0 +1,22 @@
+title: Wildcats Biotech
+description: A student-run biotechnology club at the University of Arizona
+baseurl: ""  # Change if deploying to a subfolder (e.g. "/wildcats-biotech")
+url: "https://yourusername.github.io"  # Replace with your GitHub Pages URL if applicable
+
+# Include custom folders
+include:
+  - _includes
+  - assets
+
+# Markdown engine
+markdown: kramdown
+
+# Exclude development files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
+
+sass:
+  style: compressed
