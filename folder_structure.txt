@@ -1,0 +1,32 @@
+.
+├── .gitignore
+├── .jekyll-cache
+│   ├── .gitignore
+│   └── Jekyll
+│       └── Cache
+│           └── Jekyll--Cache
+│               └── b7
+│                   └── 9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910
+├── 404.html
+├── Gemfile
+├── Gemfile.lock
+├── _config.yml
+├── _includes
+│   ├── calendar.html
+│   ├── home.html
+│   ├── involved.html
+│   ├── mission.html
+│   └── team.html
+├── _layouts
+│   └── default.html
+├── assets
+│   └── css
+│       └── styles.css
+├── calendar.md
+├── folder_structure.txt
+├── index.md
+├── involved.md
+├── mission.md
+└── team.md
+
+10 directories, 20 files
