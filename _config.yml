@@ -1,7 +1,7 @@
 title: Wildcats Biotech
 description: A student-run biotechnology club at the University of Arizona
-baseurl: ""  # Change if deploying to a subfolder (e.g. "/wildcats-biotech")
-url: "https://yourusername.github.io"  # Replace with your GitHub Pages URL if applicable
+url: "https://rshaw814.github.io"
+baseurl: "/wildcats-biotech"
 
 # Include custom folders
 include:
