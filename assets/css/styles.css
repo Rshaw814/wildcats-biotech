@@ -2,27 +2,26 @@
 
 body {
   font-family: 'EB Garamond', serif;
-  font-size: 18px; /* or try 20px if you want it larger */
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
   background-color: #f9f9f9;
   color: #333;
+  margin: 0;
+  padding: 0;
 }
+
 
 header {
   background-color: #0C234B;
   color: white;
   padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  text-align: center;           /* <-- add this */
+  display: block;               /* <-- override flex layout */
 }
 
 header h1 {
-  font-family: 'EB Garamond', serif:
-  font_size: 5rem:;
+  font-family: 'EB Garamond', serif;
+  font-size: 5rem;
   font-weight: 700;
 }
 
