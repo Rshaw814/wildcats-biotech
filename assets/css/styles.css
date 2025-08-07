@@ -15,20 +15,25 @@ header {
   background-color: #0C234B;
   color: white;
   padding: 1rem 2rem;
-  display: flex;
-  flex-direction: column;  /* Stack logo and text vertically */
-  align-items: center;
   text-align: center;
 }
 
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
 .club-logo {
-  max-width: 240px; /* Adjust size as needed */
+  max-width: 120px;
   height: auto;
-  margin-bottom: 1rem; /* Add spacing below the logo */
 }
 
 header h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   margin: 0;
   font-weight: bold;
 }
@@ -36,9 +41,11 @@ header h1 {
 nav ul {
   list-style: none;
   display: flex;
+  justify-content: center;
   gap: 1rem;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 nav a {
