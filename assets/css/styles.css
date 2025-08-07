@@ -2,6 +2,7 @@
 
 body {
   font-family: 'EB Garamond', serif;
+  font-size: 18px; /* or try 20px if you want it larger */
   line-height: 1.6;
   margin: 0;
   padding: 0;
