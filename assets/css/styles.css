@@ -21,8 +21,9 @@ header {
 }
 
 header h1 {
-  margin: 0;
-  font-size: 1.8rem;
+  font-family: 'EB Garamond', serif:
+  font_size: 2.5rem:;
+  font-weight: 700;
 }
 
 nav ul {
