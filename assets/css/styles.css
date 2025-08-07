@@ -19,6 +19,13 @@ header {
   display: block;               /* <-- override flex layout */
 }
 
+.club-logo {
+  max-width: 300px;
+  width: 100%;
+  display: block;
+  margin: 1rem auto; /* center it with spacing */
+}
+
 header h1 {
   font-family: 'EB Garamond', serif;
   font-size: 5rem;
